@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'HelveticaNeue';
+    background-color: #e8e8e8;
+}
+
+
+/**** SECTION GRUPPEN ****/
+
+#personer {
+    position: relative;
+    width: 100vw;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1600px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#person_container {
+    flex-basis: 250px;
+    justify-content: center;
+}
+
+#person_indhold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person {
+    align-self: center;
+    width: 10vw;
+    height: 10vw;
+    background-color: #f19638;
+    border-radius: 50%;
+    flex-grow: 1;
+
+}
+
+.persontekst {
+    text-align: center;
+    flex-grow: 1;
+}
+
+/**** SECTION ANIMATION ****/
+
+#animation {
+    height: 500px;
+    width: 100vw;
+    background-color: yellow;
+}
