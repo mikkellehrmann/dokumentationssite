@@ -56,3 +56,13 @@ body {
     width: 100vw;
     background-color: yellow;
 }
+
+#styletile img {
+    height: 65%;
+    width: 100%;
+}
+
+#storyboard img {
+    height: auto;
+    width: 100vw;
+}
