@@ -5,6 +5,13 @@ body {
     background-color: #e8e8e8;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /**** SECTION GRUPPEN ****/
 
@@ -55,7 +62,30 @@ body {
     height: 500px;
     width: 100vw;
     background-color: yellow;
+
 }
+
+/**** SECTION Historie ****/
+
+#historie {
+    padding: 10px;
+    background-color: #202532;
+    color: #E9ECED;
+    display: flex;
+}
+
+.ide_tekst {
+    width: 50vw;
+    flex-grow: 1;
+}
+
+.ide_billeder {
+    height: auto;
+    width: 50vw;
+    flex-grow: 1;
+}
+
+/**** SECTION styletile ****/
 
 #styletile img {
     height: 65%;
@@ -63,6 +93,6 @@ body {
 }
 
 #storyboard img {
-    height: auto;
-    width: 100vw;
+    height: 65%;
+    width: 100%;
 }
