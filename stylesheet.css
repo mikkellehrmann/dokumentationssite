@@ -9,8 +9,13 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
 }
 
 /**** SECTION GRUPPEN ****/
@@ -72,17 +77,21 @@ p {
     background-color: #202532;
     color: #E9ECED;
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .ide_tekst {
     width: 50vw;
     flex-grow: 1;
+    flex-basis: 300px;
 }
 
 .ide_billeder {
     height: auto;
     width: 50vw;
     flex-grow: 1;
+    flex-basis: 300px;
 }
 
 /**** SECTION styletile ****/
