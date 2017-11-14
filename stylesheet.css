@@ -124,12 +124,6 @@ p {
 
 /**** SECTION styletile ****/
 
-#styletile img {
-    height: 65%;
-    width: 100%;
-}
-
-
 /**** SECTION storyboard ****/
 
 #storyboard {
@@ -144,7 +138,70 @@ p {
 }
 
 #design {
-    padding: 10px;
-    background-color: #73b65a;
+    padding: 1vw;
+    background-color: #202532;
     color: #E9ECED;
+}
+
+#styletile {
+    text-align: center;
+}
+
+#styletile img {
+    width: auto;
+    height: 40vw;
+
+}
+
+#ads {
+    text-align: center;
+}
+
+#ads img {
+    height: auto;
+    height: 30vw;
+    padding: 1%;
+
+}
+
+#layoutdiagram {
+    background-color: #f4912d;
+    padding: 1vw;
+    color: #E9ECED;
+}
+
+#sekvensdiagram {
+    padding: 1vw;
+    background-color: #202532;
+    color: #E9ECED;
+}
+
+#assetliste {
+    background-color: #f4912d;
+    padding: 1vw;
+    color: #E9ECED;
+
+}
+
+#dokumentation {
+    padding: 1vw;
+    background-color: #202532;
+    color: #E9ECED;
+}
+
+#fernisering {
+    background-color: #f4912d;
+    padding: 1vw;
+    color: #E9ECED;
+
+}
+
+#trello {
+    padding: 1vw;
+    background-color: #202532;
+    color: #E9ECED;
+}
+
+#sections {
+    padding: 1vw;
 }
