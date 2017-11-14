@@ -130,17 +130,27 @@ p {
     background-color: #f4912d;
     padding: 1vw;
     color: #E9ECED;
+    text-align: center;
 }
 
 #storyboard img {
-    height: 65%;
-    width: 100%;
+    height: auto;
+    width: 50vw;
 }
 
 #design {
     padding: 1vw;
     background-color: #202532;
     color: #E9ECED;
+}
+
+#koncept {
+    text-align: center;
+}
+
+#koncept img {
+    width: auto;
+    height: 30vw;
 }
 
 #styletile {
@@ -158,10 +168,20 @@ p {
 }
 
 #ads img {
-    height: auto;
+    width: auto;
     height: 30vw;
     padding: 1%;
 
+}
+
+#karakter {
+    text-align: center;
+}
+
+#karakter img {
+    width: auto;
+    height: 30vw;
+    padding: 1%;
 }
 
 #layoutdiagram {
