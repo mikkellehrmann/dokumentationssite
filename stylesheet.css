@@ -28,6 +28,15 @@ p {
     vertical-align: middle;
 }
 
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+    color: #E9ECED;
+    font-weight: 700;
+}
+
 /**** SECTION GRUPPEN ****/
 
 #personer {
@@ -194,6 +203,14 @@ p {
     padding: 1vw;
     background-color: #202532;
     color: #E9ECED;
+    text-align: center;
+}
+
+#sekvensdiagram img {
+    width: auto;
+    height: 25vw;
+    padding: 20px;
+
 }
 
 #assetliste {
