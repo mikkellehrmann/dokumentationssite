@@ -109,6 +109,7 @@ a {
     width: 50vw;
     flex-grow: 1;
     flex-basis: 500px;
+    padding: 2vw;
 }
 
 .ide_billeder {
@@ -225,6 +226,14 @@ a {
     background-color: #f4912d;
     padding: 1vw;
     color: #E9ECED;
+    text-align: center;
+
+}
+
+#assetliste img {
+    width: auto;
+    height: 25vw;
+    padding: 20px;
 
 }
 
