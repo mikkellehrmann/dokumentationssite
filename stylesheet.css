@@ -197,6 +197,14 @@ a {
     background-color: #f4912d;
     padding: 1vw;
     color: #E9ECED;
+    text-align: center;
+}
+
+#layoutdiagram img {
+    width: auto;
+    height: 25vw;
+    padding: 20px;
+    text-align: center;
 }
 
 #sekvensdiagram {
