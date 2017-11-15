@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'HelveticaNeue';
-    background-color: #e8e8e8;
+    background-color: #E9ECED;
 }
 
 h1 {
@@ -86,7 +86,8 @@ a {
 #animation {
     height: 500px;
     width: 100vw;
-    background-color: yellow;
+    background-color: #89CCE5;
+    padding: 10px;
 
 }
 
@@ -146,6 +147,7 @@ a {
 #storyboard img {
     height: auto;
     width: 50vw;
+    padding-bottom: 8vw;
 }
 
 #design {
