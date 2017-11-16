@@ -123,6 +123,12 @@ p {
 
 /**** SECTION styletile ****/
 
+#styletile {
+    padding: 1vw;
+    color: #E9ECED;
+    background-color: #202532;
+}
+
 #styletile img {
     height: 65%;
     width: 100%;
