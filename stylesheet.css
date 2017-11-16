@@ -411,6 +411,11 @@ a {
     transform: none;
 }
 
+.testdok {
+    width: 100%;
+    text-align: center;
+}
+
 footer {
     font-family: 'Open Sans', sans-serif;
     background-color: #202532;
