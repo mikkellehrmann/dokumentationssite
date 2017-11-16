@@ -87,6 +87,7 @@ a {
     height: 500px;
     width: 100vw;
     background-color: #89CCE5;
+    padding-top: 1vw;
     padding-bottom: 5vw;
     text-align: center;
     color: #E9ECED;
@@ -261,11 +262,27 @@ a {
 
 }
 
+#fernisering img {
+    width: auto;
+    height: 25vw;
+    padding: 20px;
+
+}
+
 #trello {
     padding: 1vw;
     background-color: #202532;
     color: #E9ECED;
+    text-align: center;
 }
+
+#trello img {
+    width: auto;
+    height: 25vw;
+    padding: 20px;
+
+}
+
 
 #sections {
     padding: 1vw;
@@ -393,4 +410,10 @@ a {
 
 #menuToggle input:checked ~ ul {
     transform: none;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #202532;
+    color: #e9eced;
 }
