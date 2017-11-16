@@ -87,7 +87,16 @@ a {
     height: 500px;
     width: 100vw;
     background-color: #89CCE5;
-    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
+    color: #E9ECED;
+
+}
+
+#animation img {
+    width: auto;
+    height: 25vw;
+    padding: 20px;
 
 }
 
