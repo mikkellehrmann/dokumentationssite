@@ -18,7 +18,6 @@ h2 {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
 }
 
 p {
@@ -26,15 +25,6 @@ p {
     font-size: 0.9em;
     display: inline-block;
     vertical-align: middle;
-}
-
-a {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
-    display: inline-block;
-    vertical-align: middle;
-    color: #E9ECED;
-    font-weight: 700;
 }
 
 /**** SECTION GRUPPEN ****/
@@ -72,7 +62,6 @@ a {
     background-color: #f19638;
     border-radius: 50%;
     flex-grow: 1;
-    overflow: hidden;
 
 }
 
@@ -135,128 +124,27 @@ a {
 
 /**** SECTION styletile ****/
 
+#styletile {
+    padding: 1vw;
+    color: #E9ECED;
+    background-color: #202532;
+}
+
+#styletile img {
+    height: 65%;
+    width: 100%;
+}
+
+
 /**** SECTION storyboard ****/
 
 #storyboard {
     background-color: #f4912d;
     padding: 1vw;
     color: #E9ECED;
-    text-align: center;
 }
 
 #storyboard img {
-    height: auto;
-    width: 50vw;
-}
-
-#design {
-    padding: 1vw;
-    background-color: #202532;
-    color: #E9ECED;
-}
-
-#koncept {
-    text-align: center;
-}
-
-#koncept img {
-    width: auto;
-    height: 30vw;
-}
-
-#styletile {
-    text-align: center;
-}
-
-#styletile img {
-    width: auto;
-    height: 40vw;
-
-}
-
-#ads {
-    text-align: center;
-}
-
-#ads img {
-    width: auto;
-    height: 30vw;
-    padding: 1%;
-
-}
-
-#karakter {
-    text-align: center;
-}
-
-#karakter img {
-    width: auto;
-    height: 30vw;
-    padding: 1%;
-}
-
-#layoutdiagram {
-    background-color: #f4912d;
-    padding: 1vw;
-    color: #E9ECED;
-    text-align: center;
-}
-
-#layoutdiagram img {
-    width: auto;
-    height: 25vw;
-    padding: 20px;
-    text-align: center;
-}
-
-#sekvensdiagram {
-    padding: 1vw;
-    background-color: #202532;
-    color: #E9ECED;
-    text-align: center;
-}
-
-#sekvensdiagram img {
-    width: auto;
-    height: 25vw;
-    padding: 20px;
-
-}
-
-#assetliste {
-    background-color: #f4912d;
-    padding: 1vw;
-    color: #E9ECED;
-    text-align: center;
-
-}
-
-#assetliste img {
-    width: auto;
-    height: 25vw;
-    padding: 20px;
-
-}
-
-#dokumentation {
-    padding: 1vw;
-    background-color: #202532;
-    color: #E9ECED;
-}
-
-#fernisering {
-    background-color: #f4912d;
-    padding: 1vw;
-    color: #E9ECED;
-
-}
-
-#trello {
-    padding: 1vw;
-    background-color: #202532;
-    color: #E9ECED;
-}
-
-#sections {
-    padding: 1vw;
+    height: 65%;
+    width: 100%;
 }
